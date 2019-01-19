@@ -1,0 +1,93 @@
+/* style for Basic Portfolio*/
+.wrapper {
+    width: 960PX;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: -50px;
+
+}
+
+body {
+    color: #777777;
+    height: 100%;
+    margin: 0; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;                      
+    line-height: 1.5; 
+    background-image: url("../images/concrete.jpg");
+    
+    
+}
+
+.heading {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+/*header*/
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;  
+    overflow: auto;
+    padding-bottom: 0px;
+}
+.wrapper nav li{
+    list-style-type: none;
+    display: inline;
+    float:right;
+    
+}
+.wrapper a {
+    text-decoration: none;
+}
+
+.wrapper h1 {
+    float:left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 15PX;
+    margin: 0;
+}
+
+/*main content*/
+
+
+h2 {
+    color:#4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding: 15px;
+    padding-left: 0;
+}
+
+
+section {
+    background-color: #ffffff;
+    padding: 0px 20px 0px 20px;
+    
+}
+
+#about img {
+    width:200px;
+    height:200px;
+    float: left;
+    overflow: auto;
+    padding-right: 15px;
+} 
+
+/*foooter*/
+footer {
+    width:100%;
+    height: 50px;
+    text-align: center;
+    background: #666666;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    border-top: 8px solid #4aaaa5;
+    color:#ffffff;
+}
+
+footer small {
+    font-size: 10px;
+    position: fixed;
+    bottom: 0;
+}
