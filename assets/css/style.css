@@ -209,7 +209,9 @@ textarea {
     color: #ffffff;
 }
 
-
+.imageLink a:hover {
+    font-size: 1.25rem;
+}
 /*foooter*/
 footer {
     width:100%;
