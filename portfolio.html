@@ -8,26 +8,67 @@
     <title>Portfolio</title>
 </head>
 <body>
-        <header>
-                <h2>David Lawrence</h2>
+    <header>
+        <div class="wrapper2">
+
+            <h2 class="heading">David Lawrence</h2>
+            <nav class="nav2">
                 <ul>
                     <li><a href="index.html">About</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li id="contactLink"><a href="contact.html">Contact</a></li>
                 </ul>
-           
-        </header>
+            </nav>
+        </div>    
+    </header>
         <!--portfolio links-->
-        <section>
-            <h2>Portfolio</h2>
-                <img src="assets/images/placeholder1.jpg" alt=""><a href="#"></a>
-                <img src="assets/images/placeholder2.jpg" alt=""><a href="#"></a>
-                <img src="assets/images/placeholder3.jpg" alt=""><a href="#"></a>
-                <img src="assets/images/placeholder4.jpg" alt=""><a href="#"></a>
-                <img src="assets/images/placeholder5.jpg" alt=""><a href="#"></a>
+
+    <div class="wrapper2">
+        <section id="portfolio">    
+            <h2 class="heading2">Portfolio</h2>
+
+                <div class="image" id="img1" >
+                    <img src="assets/images/placeholder1.jpg" alt="hangman">
+                        <div class="imageLink" id="link1">
+                            <a  href="#">Hangman</a>
+                        </div>      
+                </div>
+
+                <div class="image" id="img2">
+                    <img src="assets/images/placeholder2.jpg" alt="rpg game">
+                        <div class="imageLink" id="link2">
+                            <a href="#">RPG Game</a><br>
+                        </div>
+                </div>  
                 
-        </section>  
-            
+                <div class="image" id="img3">
+                    <img src="assets/images/placeholder3.jpg" alt="trivia game">
+                    <div class="imageLink" id="link3">    
+                        <a href="#">Trivia Game</a>
+                    </div>
+                </div>
+
+                <div class="image" id="img4">
+                    <img src="assets/images/placeholder4.jpg" alt="rutgers widget">
+                        <div class="imageLink" id="link4">
+                            <a href="#">Rutgers Info Widget</a><br>
+                        </div>
+                </div>
+
+                <div class="image" id="img5">
+                    <img src="assets/images/placeholder5.jpg" alt="rock paper scissors">
+                        <div class="imageLink" id="link5"> 
+                            <a href="#">Rock Paper Scissors</a>
+                        </div>        
+                </div>    
+             
+        </section>
+    </div>        
     
+        <!--footer-->
+
+        <footer>
+                <small>Copyright</small>
+            </footer>
 </body>
 </html>
