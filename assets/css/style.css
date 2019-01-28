@@ -62,14 +62,10 @@ nav li:not(:last-child) {
 nav a {
     text-decoration: none;
     text-decoration-color: #cccccc;
+    color: inherit;
+    font-size: 16px;
 }
-/*nav a:before{
-    color: #cccccc;
-}
-nav a:after {
-    color: #cccccc;
-    }
-*/
+
 nav a:hover {
     background: #4aaaa5;
     padding:5px;
@@ -77,8 +73,9 @@ nav a:hover {
 
 .nav2 {
     padding-bottom: 0px;
-    font-size: 14px;
-    
+}
+.nav2 a {
+    font-size: 13px;
 }
 
 .nav2 a:after {
@@ -137,7 +134,11 @@ nav a:hover {
     float: left;
     overflow: auto;
     padding-right: 15px;
-} 
+}
+
+#about p {
+    text-indent: 2rem;
+}
 
 #contact,
 input,
@@ -158,7 +159,7 @@ textarea {
   width: 10%;
 }
 .button:hover {
-    background-color: #265754;
+    background-color: #3A8581;
 }
 /*profoloio specific*/
 
