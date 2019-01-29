@@ -120,9 +120,10 @@ nav a:hover {
 #about,
 #contact {
     clear:both;
+    content: "";
+    display:table;
     background-color: #ffffff;
     padding: 0px 20px 20px 20px;
-    clear: both;
     border: 1px solid #cccccc;
     margin-top: 20px;
     
