@@ -165,6 +165,7 @@ textarea {
 /*profoloio specific*/
 
 #portfolio {
+    width: 720px;
     margin-bottom: 80px;
     overflow:auto;
 }
